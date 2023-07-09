@@ -5,16 +5,17 @@
 <style>
 body{
     text-align: center;
-      background-color: rgb(87, 158, 181);
+    
+    background-color:rgb(92, 88, 88);
 
 }
 h1{
-    color: rgb(174, 88, 88);
+    color: rgb(255, 0, 221);
     font-weight:700 ;
 }
 label {
       font-size: x-large;
-      color: rgb(55, 77, 34);
+      color: rgb(123, 254, 0);
       font-weight: 900;
       display: block;
       margin-bottom: 5px;
@@ -28,7 +29,8 @@ label {
 
 }
 input{
-color: blue;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 font-size: x-large;
 }
 button:hover{
@@ -36,7 +38,18 @@ button:hover{
     color: aliceblue;
     cursor: pointer;
 }
-
+.K{
+    color: blue;
+font-size: x-large;
+}
+.tt{
+    color: rgb(123, 255, 0);
+      font-weight: 900;
+      display: block;
+      margin-bottom: 5px;
+font-size: x-large;
+ 
+}
 
 </style>
 </head>
@@ -47,17 +60,21 @@ button:hover{
 <label> User Name : </label><br>
 <br>
 <input type="text" required><br><br>
-<lebal>PhoneNumber : </lebal><br><br>
+<lebal class="tt">PhoneNumber : </lebal><br><br>
+<div class="K">
 <input type="number" required><br><br> 
-<leabel> age : </leabel><br><br>
+</div>
+<leabel class="tt"> age : </leabel><br><br>
 <input type="number" required><br><br> 
 <label> data</label><br><br>
 <input type =" data" required><br><br>
 <label> Email </label><br><br>
 <input type=" Email"  required><br><br>
-type="radio" name="g"   required>
-<label<label> Gander :     </label>
+
+<type="radio" name="g"   required>
+<label> Gander :     </label>
 <label> Female </label>
+<input type="radio" name="r" >
 <label> Male  </label>
 <input type="radio" name="g"  required><br> <br>
 <label>   What do you want us to enter here please    </label><br>
@@ -72,6 +89,7 @@ type="radio" name="g"   required>
 </form>
 
 </body>
+
 
 
 
